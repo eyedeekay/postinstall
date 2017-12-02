@@ -1,0 +1,59 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Origin: eyedeekay.github.io/postinstall
+Label: eyedeekay.github.io/postinstall
+Codename: rolling
+Date: Sat, 02 Dec 2017 06:24:29 UTC
+Architectures: amd64 i386 armhf
+Components: main
+MD5Sum:
+ 410bdf23b26c4dfbb9c34f6126e12fbf 547 main/binary-amd64/Packages
+ f7f702caf60b129bf765790a458e254c 398 main/binary-amd64/Packages.gz
+ e5ff2e017b163f328d17acb3ebc2902d 115 main/binary-amd64/Release
+ 410bdf23b26c4dfbb9c34f6126e12fbf 547 main/binary-i386/Packages
+ f7f702caf60b129bf765790a458e254c 398 main/binary-i386/Packages.gz
+ e1916e59bebaffc5dd32702375e9876b 114 main/binary-i386/Release
+ 410bdf23b26c4dfbb9c34f6126e12fbf 547 main/binary-armhf/Packages
+ f7f702caf60b129bf765790a458e254c 398 main/binary-armhf/Packages.gz
+ 7e738f403e11044a5063a441fc87762e 115 main/binary-armhf/Release
+ 243ca77f4a545547f0e66e79160bbd44 1151 main/source/Sources
+ 98ea4d7f99750cabb8d5cc5580bcdf39 637 main/source/Sources.gz
+ 66aba6e35091dd1f5aa597d18601db2d 116 main/source/Release
+SHA1:
+ ee1b41be7fc6702eea1019180a60d267bc43b0ec 547 main/binary-amd64/Packages
+ 333ca234d87e5108072914856d20c63a5d3724f4 398 main/binary-amd64/Packages.gz
+ 3f2738e62516b3f108a91f665a35439698ca23e1 115 main/binary-amd64/Release
+ ee1b41be7fc6702eea1019180a60d267bc43b0ec 547 main/binary-i386/Packages
+ 333ca234d87e5108072914856d20c63a5d3724f4 398 main/binary-i386/Packages.gz
+ 4c952581f9cdc1e29eea2031235b8b14352371d4 114 main/binary-i386/Release
+ ee1b41be7fc6702eea1019180a60d267bc43b0ec 547 main/binary-armhf/Packages
+ 333ca234d87e5108072914856d20c63a5d3724f4 398 main/binary-armhf/Packages.gz
+ 72df4ea746884c452d63444628079b0d3887acc4 115 main/binary-armhf/Release
+ 86681ddc3ba56e66e5b2e450cfe65630800b1a32 1151 main/source/Sources
+ 9be81d5fb327e4a3a8b02e9b2af22a45443e2410 637 main/source/Sources.gz
+ 00346aff0e5cb0caf6786ea3aa8b446870ba17e5 116 main/source/Release
+SHA256:
+ f849b58ae59691af7ca118eff80ad5f3a0191acaba1970133e9b3af1eb63766e 547 main/binary-amd64/Packages
+ b9f7a7f7abbf4bd438ad833ca434cacd71bbddc0b9c3485a6b2d336b94440357 398 main/binary-amd64/Packages.gz
+ bbf878133157b415a4dcb04364dd4eeab2da13084aca77c348a9cc893b6cd39a 115 main/binary-amd64/Release
+ f849b58ae59691af7ca118eff80ad5f3a0191acaba1970133e9b3af1eb63766e 547 main/binary-i386/Packages
+ b9f7a7f7abbf4bd438ad833ca434cacd71bbddc0b9c3485a6b2d336b94440357 398 main/binary-i386/Packages.gz
+ 7c6b85b0ae7c02d85f7f89d701ae5a7b01559e80d4c8a2e381337a6b2d4099a4 114 main/binary-i386/Release
+ f849b58ae59691af7ca118eff80ad5f3a0191acaba1970133e9b3af1eb63766e 547 main/binary-armhf/Packages
+ b9f7a7f7abbf4bd438ad833ca434cacd71bbddc0b9c3485a6b2d336b94440357 398 main/binary-armhf/Packages.gz
+ eb957f4e2f2d93ce22e24cc6231d29ca81e07455ecf5ed44d80ca0ce91d56ceb 115 main/binary-armhf/Release
+ d8e05e71e756dc622d110409589e11a0cab85a2da1024c6f0381a3971e3fa1bd 1151 main/source/Sources
+ 06f0d482259cad15b88b9b00f95753f20bceb8ba1f5bf7768d4660685235c259 637 main/source/Sources.gz
+ 54ccb48e5bd576aadd323c8165aec448d05ce50bccbbe6c4de9535925867ad0c 116 main/source/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEcNIGBzi++AUjrK/311wDs5teFOEFAloiRx0ACgkQ11wDs5te
+FOFxiwgAsnBb8opemcfHLplvbiSZuIzX2+525EP11eiokANmVaUnZGHfhOftaYuQ
+Rzgs8gFVrbYbE/xFoPUfAPEpPmWfgPKtGJfIU4dKu5RkhRLkuCQM8/MlVx4FthyZ
+ja53vEsdZf6ZE24pceJCnLaaYRL/zbkYpORwyfnS9ndXi3OzjnLj/FXoyesassb3
+ubGfqgirmQ6ojhKXq6O6b7CF0MgLAXeZ46gMiImgNbpL8+hymU5sLa7Tdky8qo+4
+GBFR0BGFvkExEwuWryPChkmIjn9xfWOu9YrTyYBeb2VTG5K7rOYoasESThvGmz6j
+6nszyNvcI9dRF0CW8jVOD84pvZylsA==
+=68m2
+-----END PGP SIGNATURE-----

@@ -1,0 +1,3 @@
+verbose
+ask-passphrase
+basedir /home/idk/local-manifest/distro-site-manifest/postinstall/deb-pkg

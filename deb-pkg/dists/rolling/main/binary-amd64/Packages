@@ -1,0 +1,16 @@
+Package: pi-cryptenv
+Version: 0.1-1
+Architecture: all
+Maintainer: lair repo key <problemsolver@openmailbox.org>
+Installed-Size: 10
+Homepage: <insert the upstream URL, if relevant>
+Priority: optional
+Section: unknown
+Filename: pool/main/p/pi-cryptenv/pi-cryptenv_0.1-1_all.deb
+Size: 2160
+SHA256: 61f5db04b51055f10d6b9f860f01a174115ae3be3423f33a8a09828e7dbe8a61
+SHA1: 671c1ecd90b9873af61de6a0884ca8cd05f497ea
+MD5sum: 7bd831c4347303c0efd40e2013d6241c
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+

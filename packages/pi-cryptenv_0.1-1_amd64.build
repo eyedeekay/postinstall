@@ -1,0 +1,124 @@
+ dpkg-buildpackage -rfakeroot-ng -us -uc
+dpkg-buildpackage: info: source package pi-cryptenv
+dpkg-buildpackage: info: source version 0.1-1
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by lair repo key <problemsolver@openmailbox.org>
+ dpkg-source --before-build pi-cryptenv
+dpkg-buildpackage: info: host architecture amd64
+ fakeroot-ng debian/rules clean
+dh clean
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b pi-cryptenv
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building pi-cryptenv using existing ./pi-cryptenv_0.1.orig.tar.xz
+dpkg-source: info: building pi-cryptenv in pi-cryptenv_0.1-1.debian.tar.xz
+dpkg-source: info: building pi-cryptenv in pi-cryptenv_0.1-1.dsc
+ debian/rules build
+dh build
+   dh_update_autotools_config
+   dh_auto_configure
+   dh_auto_build
+	make -j1
+make[1]: Entering directory '/home/idk/local-manifest/distro-site-manifest/pi-cryptenv'
+
+make[1]: Leaving directory '/home/idk/local-manifest/distro-site-manifest/pi-cryptenv'
+   dh_auto_test
+ fakeroot-ng debian/rules binary
+dh binary
+   dh_testroot
+   dh_prep
+   dh_auto_install
+	make -j1 install DESTDIR=/home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenv AM_UPDATE_INFO_DIR=no
+make[1]: Entering directory '/home/idk/local-manifest/distro-site-manifest/pi-cryptenv'
+mkdir -p /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/init-unlock /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/xsidle.sh /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/secure-lock /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/unlock-Desktop /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/unlock-Documents /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/unlock-Downloads /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/unlock-Mail /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/unlock-Messaging /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/unlock-Music /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/unlock-Notes /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/unlock-Pictures /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/unlock-Projects /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/unlock-Videos /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/unlock-ratox /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/lock-All /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/lock-Desktop /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/lock-Documents /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/lock-Downloads /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/lock-Mail /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/lock-Messaging /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/lock-Music /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/lock-Notes /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/lock-Pictures /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/lock-Projects /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/lock-Videos /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+install usr/local/bin/lock-ratox /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvusr/local/bin
+mkdir -p etc/default /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvetc/default
+install etc/default/home-defaults /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvetc/default/home-defaults
+mkdir -p /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvetc/X11/Xsession.d
+install etc/X11/Xsession.d/99xsidle /home/idk/local-manifest/distro-site-manifest/pi-cryptenv/debian/pi-cryptenvetc/X11/Xsession.d
+make[1]: Leaving directory '/home/idk/local-manifest/distro-site-manifest/pi-cryptenv'
+   dh_installdocs
+   dh_installchangelogs
+   dh_perl
+   dh_link
+   dh_strip_nondeterminism
+   dh_compress
+   dh_fixperms
+   dh_missing
+   dh_installdeb
+   dh_gencontrol
+   dh_md5sums
+   dh_builddeb
+dpkg-deb: building package 'pi-cryptenv' in '../pi-cryptenv_0.1-1_all.deb'.
+ dpkg-genbuildinfo
+ dpkg-genchanges  >../pi-cryptenv_0.1-1_amd64.changes
+dpkg-genchanges: info: including full source code in upload
+ dpkg-source --after-build pi-cryptenv
+dpkg-buildpackage: info: full upload (original source is included)
+Now running lintian...
+E: pi-cryptenv source: readme-source-is-dh_make-template
+W: pi-cryptenv source: dh-make-template-in-source debian/manpage.1.ex
+W: pi-cryptenv source: dh-make-template-in-source debian/manpage.sgml.ex
+W: pi-cryptenv source: dh-make-template-in-source debian/manpage.xml.ex
+W: pi-cryptenv source: dh-make-template-in-source debian/menu.ex
+W: pi-cryptenv source: dh-make-template-in-source debian/pi-cryptenv.cron.d.ex
+W: pi-cryptenv source: dh-make-template-in-source debian/pi-cryptenv.default.ex
+W: pi-cryptenv source: dh-make-template-in-source debian/pi-cryptenv.doc-base.EX
+W: pi-cryptenv source: dh-make-template-in-source debian/postinst.ex
+W: pi-cryptenv source: dh-make-template-in-source debian/postrm.ex
+W: pi-cryptenv source: dh-make-template-in-source debian/preinst.ex
+W: pi-cryptenv source: dh-make-template-in-source debian/prerm.ex
+W: pi-cryptenv source: dh-make-template-in-source debian/watch.ex
+W: pi-cryptenv source: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
+W: pi-cryptenv source: bad-homepage <insert the upstream URL, if relevant>
+W: pi-cryptenv source: out-of-date-standards-version 3.9.8 (current is 4.0.0)
+W: pi-cryptenv: wrong-bug-number-in-closes l3:#nnnn
+W: pi-cryptenv: new-package-should-close-itp-bug
+E: pi-cryptenv: changelog-is-dh_make-template
+E: pi-cryptenv: helper-templates-in-copyright
+W: pi-cryptenv: copyright-has-url-from-dh_make-boilerplate
+E: pi-cryptenv: copyright-contains-dh_make-todo-boilerplate
+W: pi-cryptenv: readme-debian-contains-debmake-template
+E: pi-cryptenv: description-is-dh_make-template
+E: pi-cryptenv: section-is-dh_make-template
+W: pi-cryptenv: superfluous-clutter-in-homepage <insert the upstream URL, if relevant>
+W: pi-cryptenv: bad-homepage <insert the upstream URL, if relevant>
+W: pi-cryptenv: empty-binary-package
+Finished running lintian.
+Now signing changes and any dsc files...
+ signfile dsc pi-cryptenv_0.1-1.dsc 70D2060738BEF80523ACAFF7D75C03B39B5E14E1
+
+ fixup_buildinfo pi-cryptenv_0.1-1.dsc pi-cryptenv_0.1-1_amd64.buildinfo
+ signfile buildinfo pi-cryptenv_0.1-1_amd64.buildinfo 70D2060738BEF80523ACAFF7D75C03B39B5E14E1
+
+ fixup_changes dsc pi-cryptenv_0.1-1.dsc pi-cryptenv_0.1-1_amd64.changes
+ fixup_changes buildinfo pi-cryptenv_0.1-1_amd64.buildinfo pi-cryptenv_0.1-1_amd64.changes
+ signfile changes pi-cryptenv_0.1-1_amd64.changes 70D2060738BEF80523ACAFF7D75C03B39B5E14E1
+
+Successfully signed dsc, buildinfo, changes files

@@ -1,0 +1,49 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+Format: 1.8
+Date: Sat, 02 Dec 2017 00:45:20 -0500
+Source: pi-cryptenv
+Binary: pi-cryptenv
+Architecture: source all
+Version: 0.1-1
+Distribution: unstable
+Urgency: medium
+Maintainer: lair repo key <problemsolver@openmailbox.org>
+Changed-By: lair repo key <problemsolver@openmailbox.org>
+Description:
+ pi-cryptenv - <insert up to 60 chars description>
+Changes:
+ pi-cryptenv (0.1-1) unstable; urgency=medium
+ .
+   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+Checksums-Sha1:
+ 10219a390bc37015e42b3b5d3c2a29fdaa58502b 1390 pi-cryptenv_0.1-1.dsc
+ b41e1099a299e7d7f7c7ea5d1ce7d4ad1365f31b 50012 pi-cryptenv_0.1.orig.tar.xz
+ 430caacfce22d17b9b2847a4b47528a7d80e71d9 7708 pi-cryptenv_0.1-1.debian.tar.xz
+ 671c1ecd90b9873af61de6a0884ca8cd05f497ea 2160 pi-cryptenv_0.1-1_all.deb
+ ad3c247d20eba8f608d80602cb1bd20c753528c8 5863 pi-cryptenv_0.1-1_amd64.buildinfo
+Checksums-Sha256:
+ 123b2b02b49c29cd7447c8b0ba4b0d47a0af20d7aa611e800e7fc20cbe876565 1390 pi-cryptenv_0.1-1.dsc
+ 13146176e2b046bbe51796e1440db6ee2979a627d086d6f65c288657849de8c8 50012 pi-cryptenv_0.1.orig.tar.xz
+ bc02f45c7d96e52fd120b53a76264bf6be2576a96f3eabf8235c5a50094e1c5f 7708 pi-cryptenv_0.1-1.debian.tar.xz
+ 61f5db04b51055f10d6b9f860f01a174115ae3be3423f33a8a09828e7dbe8a61 2160 pi-cryptenv_0.1-1_all.deb
+ 3a913406e50dcf7565dd61f7a5f3b6658e9c14bfc49b19c7bad58a55e259f59d 5863 pi-cryptenv_0.1-1_amd64.buildinfo
+Files:
+ e60523c06f9281520a8869cb97a3ebad 1390 unknown optional pi-cryptenv_0.1-1.dsc
+ 7f8d3b1c16e962a3b88f636d590dd612 50012 unknown optional pi-cryptenv_0.1.orig.tar.xz
+ 34f88062918ed03107d9fc12074aed95 7708 unknown optional pi-cryptenv_0.1-1.debian.tar.xz
+ 7bd831c4347303c0efd40e2013d6241c 2160 unknown optional pi-cryptenv_0.1-1_all.deb
+ 96310a292933320219bb06b8811f2daa 5863 unknown optional pi-cryptenv_0.1-1_amd64.buildinfo
+
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAEBCAAdFiEEcNIGBzi++AUjrK/311wDs5teFOEFAloiPiAACgkQ11wDs5te
+FOH8jwf+PWlMOHnL/Od5oeK+9Xk3jaGNfZ2oTxKM3Fo5yL+iH+l361JuLsqMHDB/
+KKDLRn0C2kohrH3N6T+2genfPj7A+VIjUSlbY6gSHJXzaebN1QXqHrhOGL5zUiCS
+ClKfni8zTnhSx7Y9d1nRsOcxjIAaIc7JTDG+MhxoonlZ+eh1tjCXvx3xKA/5dzxR
+1VMhXnUL3DnmXUhi/scNiUjqjEUuHYRY09OmJozlJwWBCBdoxscT6ydxSSKq6zER
+apAjsp77f0l299xdPFoG83QLJbmFmmGOL3piuIpEs7ifWElLAQ5kneqNK5ZAOPve
+Gj7XF13j9SYgEOmObwOQ55dRkOxdVA==
+=ZNaL
+-----END PGP SIGNATURE-----
